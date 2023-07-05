@@ -2,7 +2,13 @@
 h1{cursor: progress;}
 hr{border: 5px solid black;}
 
+.contain{display: flex;margin: 10px;}
+.contain > div{margin: 5px;}
 
 
+.box{padding: 20px;background-color: red;height: 80px; width: 200px;}
+.box1{background-color: green;height: 80px;width: 200px;padding: 20px;}
+.box2{background-color: blue;height: 80px;width: 200px;padding: 20px;justify-content: right;align-items: flex-start;}
+.box3{background-color: blueviolet;height: 80px;width: 200px;padding: 20px;}
 
-
+hr
